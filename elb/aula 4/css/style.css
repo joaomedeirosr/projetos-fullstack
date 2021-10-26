@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+.caixa{
+    width: 40%;
+    height: 360px;
+    border-radius: 3px;
+    float: left;
+    margin: 20px;
+}
+.bg-gold{
+    background-color:#FF890F;
+}
+.bg-celeste{
+    background-color:#4A7088;
+}
+input{
+    width: 90%;
+    margin: 5px;
+}
+button{
+    width: 30%;
+    float: right;
+}

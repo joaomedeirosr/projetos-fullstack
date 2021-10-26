@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Envio de formularios</title>
+</head>
+<body>
+    <h2> Cadastro feito com sucesso</h2>
+    <form method="GET">
+        <input type="text"name="nome"placeholder="Digite o nome do que voce busca">
+        <br/>
+        <legend>Estado</legend>
+        <select name="estado">
+            <option value="SP"></option>
+            <option value="MG"></option>
+            <option value="RJ"></option>
+            <option value="GO"></option>
+        </select>
+        <br/>
+        <input type="checkbox" name="foto" value="Sim"> Com foto
+        <br/>
+        <input type="radio" name="situacao" value="Novo"> Novo
+        <input type="radio"name="situacao" value="Usado"> Usado
+        <button type="submit"></button>
+    </form>
+</body>
+</html>

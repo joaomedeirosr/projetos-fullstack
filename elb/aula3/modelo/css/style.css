@@ -1,0 +1,22 @@
+body{
+    background-color: gold;
+    margin: 0px;
+}
+
+.box {
+    width: 220px;
+    float: left;
+    margin: 20px;
+    padding: 8px;
+}
+
+.box-login{
+    background-color: blue;
+}
+.box-cad{
+    background-color: green;
+}
+
+.barra{
+    background-color: orange;
+}
